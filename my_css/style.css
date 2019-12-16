@@ -94,3 +94,31 @@ a.dropdown-item {
     display: block;
     width: 100%;
 }
+
+
+/* MEDIA QUERIES */
+
+
+/* Navigation Media Query */
+
+@media(max-width: 500px) {
+    .header-1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+    .header-contact-1,
+    .header-contact-2 {
+        padding: 0px;
+    }
+}
+
+@media(max-width: 1094px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem!important;
+    }
+    .navbar-nav {
+        margin-right: 50px;
+    }
+}
