@@ -1,0 +1,96 @@
+/* DESIGNED BY EMMANUEL PETER EKPOBIMI , EMMATECH DIGITAL WORLD
+*/
+
+
+/* GLOBA; STYLES */
+
+ :root {
+    --main-bg-color: rgb(100, 98, 98);
+    --main-font-color: rgb(100, 98, 98);
+    --footer-bg-color: black;
+    --secondary-font-color: white;
+    --secondary-bg-color: white;
+    --button-color: blue;
+}
+
+html {
+    background-color: var(--main-bg-color);
+    font-size: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADING STYLES */
+
+.header-1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-font-color);
+}
+
+.header-contact-1 {
+    padding-left: 1.5rem;
+}
+
+.header-contact-2 {
+    padding-right: 3rem;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+
+.logo-text span {
+    letter-spacing: 15px;
+    font-weight: bolder;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem!important;
+    padding-left: 0.5rem;
+}
+
+div.dropdown-menu {
+    border: none!important;
+}
+
+a.dropdown-item {
+    font-size: 0.7rem!important;
+    border: none!important;
+    padding: 10px 10px!important;
+    border-bottom: 1px solid gray!important;
+}
+
+
+/* Dropdown Transition */
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+
+/* SHOWCASE / CAROUSAL SECTION */
+
+.carousel-image {
+    display: block;
+    width: 100%;
+}
