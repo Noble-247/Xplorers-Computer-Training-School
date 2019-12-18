@@ -2,7 +2,7 @@
 */
 
 
-/* GLOBA; STYLES */
+/* GLOBAL STYLES */
 
  :root {
     --main-bg-color: rgb(100, 98, 98);
@@ -10,7 +10,8 @@
     --footer-bg-color: black;
     --secondary-font-color: white;
     --secondary-bg-color: white;
-    --button-color: blue;
+    --button-color: #007bff;
+    ;
 }
 
 html {
@@ -21,7 +22,24 @@ html {
 body {
     margin: 0px;
     padding: 0px;
+    line-height: 1.5;
 }
+
+.section-margin_padding {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section-bg-color {
+    background-color: #f8f9fa;
+}
+
+.col-margin {
+    margin-top: 30px;
+}
+
+
+/* END OF GLOBAL STYLES */
 
 
 /* HEADING STYLES */
@@ -88,12 +106,28 @@ a.dropdown-item {
 }
 
 
-/* SHOWCASE / CAROUSAL SECTION */
+/* END OF HEADING STYLES */
+
+
+/* SHOWCASE / CAROUSAL STYLES */
 
 .carousel-image {
     display: block;
     width: 100%;
 }
+
+
+/* END OF SHOWCASE / CAROUSAL STYLES */
+
+
+/* ABOUT US SECTION */
+
+.font-awesome-icons {
+    color: var(--button-color);
+}
+
+
+/* END OF ABOUT US SECTION */
 
 
 /* MEDIA QUERIES */
