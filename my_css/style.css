@@ -84,6 +84,13 @@ a.dropdown-item {
     border-bottom: 1px solid gray!important;
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a745!important;
+}
+
 
 /* Dropdown Transition */
 
@@ -121,7 +128,7 @@ a.dropdown-item {
 /* *********************************************** ABOUT US SECTION *********************************************** */
 
 .font-awesome-icons {
-    color: var(--button-color);
+    color: #28a745
 }
 
 
@@ -158,7 +165,7 @@ a.dropdown-item {
 }
 
 .quote-color {
-    color: #007bff;
+    color: #28a745
 }
 
 
@@ -169,6 +176,16 @@ a.dropdown-item {
 
 #map iframe {
     width: 100%;
+}
+
+
+/* More info list style */
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
 }
 
 
