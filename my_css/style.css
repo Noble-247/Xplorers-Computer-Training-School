@@ -1,8 +1,7 @@
-/* DESIGNED BY EMMANUEL PETER EKPOBIMI , EMMATECH DIGITAL WORLD
-*/
+/* **************************** DESIGNED BY EMMANUEL PETER EKPOBIMI , EMMATECH DIGITAL WORLD ************************/
 
 
-/* GLOBAL STYLES */
+/* *********************************************** GLOBAL STYLES ******************************************* */
 
  :root {
     --main-bg-color: rgb(100, 98, 98);
@@ -38,10 +37,10 @@ body {
 }
 
 
-/* END OF GLOBAL STYLES */
+/* *********************************************** END OF GLOBAL STYLES ********************************************* */
 
 
-/* HEADING STYLES */
+/* *********************************************** HEADING STYLES *********************************************** */
 
 .header-1 {
     padding: 10px;
@@ -105,10 +104,10 @@ a.dropdown-item {
 }
 
 
-/* END OF HEADING STYLES */
+/* *********************************************** END OF HEADING STYLES ****************************************** */
 
 
-/* SHOWCASE / CAROUSAL STYLES */
+/* *********************************************** SHOWCASE / CAROUSAL STYLES ************************************* */
 
 .carousel-image {
     display: block;
@@ -116,20 +115,20 @@ a.dropdown-item {
 }
 
 
-/* END OF SHOWCASE / CAROUSAL STYLES */
+/* ************************************* END OF SHOWCASE / CAROUSAL STYLES **************************************** */
 
 
-/* ABOUT US SECTION */
+/* *********************************************** ABOUT US SECTION *********************************************** */
 
 .font-awesome-icons {
     color: var(--button-color);
 }
 
 
-/* END OF ABOUT US SECTION */
+/* ******************************************* END OF ABOUT US SECTION ******************************************** */
 
 
-/* TESTIMONIAL SECTION STYLES */
+/* ***************************************** TESTIMONIAL SECTION STYLES ******************************************* */
 
 #testimonial {
     background-image: url(/image/tech_background1.jpg);
@@ -163,10 +162,44 @@ a.dropdown-item {
 }
 
 
-/* END OF TESTIMONIAL SECTION STYLES */
+/* ************************************** END OF TESTIMONIAL SECTION STYLES *****************************************/
 
 
-/* MEDIA QUERIES */
+/* **************************************** SITE MAP / GOOGLE MAP SECTION ***************************************** */
+
+#map iframe {
+    width: 100%;
+}
+
+
+/* ************************************  END OF SITE MAP / GOOGLE MAP SECTION ************************************* */
+
+
+/* ******************************************** CALL TO ACTION STYLES ********************************************* */
+
+#call-to-action {
+    background-image: url(/image/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ***************************************** END OF CALL TO ACTION STYLES ***************************************** */
+
+
+/*  ********************************************** FOOTER STTYLES  ************************************************ */
+
+.copywrite-info {
+    background-color: black;
+    padding: 5px;
+    width: 100%;
+}
+
+
+/*  ********************************************END OF FOOTER STYLES  ********************************************* */
+
+
+/* ************************************************** MEDIA QUERIES *********************************************** */
 
 
 /* Navigation Media Query */
@@ -190,5 +223,9 @@ a.dropdown-item {
     }
     .navbar-nav {
         margin-right: 50px;
+    }
+    /* Testimonial Section Media Query */
+    .testimonial-heading {
+        font-size: 1.6rem;
     }
 }
