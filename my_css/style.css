@@ -139,7 +139,7 @@ a.dropdown-item {
 
 #testimonial {
     background-image: url(https://noble-247.github.io/image/tech_background1.jpg);
-    background-image: url(/image/tech_background1.jpg);
+    background-image: url(../image/tech_background1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
