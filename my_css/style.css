@@ -3,16 +3,6 @@
 
 /* *********************************************** GLOBAL STYLES ******************************************* */
 
- :root {
-    --main-bg-color: rgb(100, 98, 98);
-    --main-font-color: rgb(100, 98, 98);
-    --footer-bg-color: black;
-    --secondary-font-color: white;
-    --secondary-bg-color: white;
-    --button-color: #007bff;
-    ;
-}
-
 html {
     font-size: 100%;
 }
@@ -34,6 +24,22 @@ body {
 
 .col-margin {
     margin-top: 30px;
+}
+
+.bg-orange {
+    background-color: rgb(255, 122, 89)!important;
+}
+
+.bg-orange:hover {
+    background-color: rgb(224, 107, 77)!important;
+}
+
+.btn-orange {
+    background-color: rgb(255, 122, 89)!important;
+}
+
+.btn-orange:hover {
+    background-color: rgb(224, 107, 77)!important;
 }
 
 
@@ -204,6 +210,23 @@ a.dropdown-item {
 /* ***************************************** END OF CALL TO ACTION STYLES ***************************************** */
 
 
+/* ********************************************HUBSPOT FORN STYLES *********************************************/
+
+iframe {
+    font-family: 'Poppins', sans-serif, Arial, Helvetica !important;
+    margin: 15px auto;
+    position: static;
+    border: medium none;
+    display: block;
+    overflow: hidden;
+    width: 80% !important;
+    height: 988.767px;
+}
+
+
+/* ********************************************END OF HUBSPOT STYLES *********************************************/
+
+
 /*  ********************************************** FOOTER STTYLES  ************************************************ */
 
 .copywrite-info {
@@ -230,6 +253,10 @@ a.dropdown-item {
     .header-contact-1,
     .header-contact-2 {
         padding: 0px;
+    }
+    /* Hubspot Media Query */
+    iframe {
+        width: 100% !important;
     }
 }
 
