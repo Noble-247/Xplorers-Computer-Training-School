@@ -42,6 +42,10 @@ body {
     background-color: rgb(224, 107, 77)!important;
 }
 
+div.col-md-4>img {
+    margin-top: 50px;
+}
+
 
 /* *********************************************** END OF GLOBAL STYLES ********************************************* */
 
