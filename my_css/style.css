@@ -26,6 +26,9 @@ body {
     margin-top: 30px;
 }
 
+
+/* Begining of Orange Color Theme Styles */
+
 .bg-orange {
     background-color: rgb(255, 122, 89)!important;
 }
@@ -41,6 +44,9 @@ body {
 .btn-orange:hover {
     background-color: rgb(224, 107, 77)!important;
 }
+
+
+/* End of Orange Color Theme Styles */
 
 div.col-md-4>img {
     margin-top: 50px;
