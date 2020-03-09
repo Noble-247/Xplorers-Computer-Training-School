@@ -31,7 +31,8 @@ body {
 
 /* Begining of Orange Color Theme Styles */
 
-.bg-orange {
+
+/* .bg-orange {
     background-color: rgb(255, 122, 89)!important;
 }
 
@@ -45,7 +46,7 @@ body {
 
 .btn-orange:hover {
     background-color: rgb(224, 107, 77)!important;
-}
+} */
 
 
 /* End of Orange Color Theme Styles */
@@ -257,6 +258,9 @@ iframe {
 /* Navigation Media Query */
 
 @media(max-width: 500px) {
+    html {
+        font-size: 85%;
+    }
     .header-1 {
         flex-direction: column;
         text-align: center;
@@ -266,7 +270,11 @@ iframe {
     .header-contact-2 {
         padding: 0px;
     }
-    /* Hubspot Media Query */
+    /* Hubspot Form Media Query */
+    iframe {
+        width: 100% !important;
+    }
+    /* Google Map Media Query */
     iframe {
         width: 100% !important;
     }
