@@ -28,29 +28,6 @@ body {
     margin-top: 30px;
 }
 
-
-/* Begining of Orange Color Theme Styles */
-
-
-/* .bg-orange {
-    background-color: rgb(255, 122, 89)!important;
-}
-
-.bg-orange:hover {
-    background-color: rgb(224, 107, 77)!important;
-}
-
-.btn-orange {
-    background-color: rgb(255, 122, 89)!important;
-}
-
-.btn-orange:hover {
-    background-color: rgb(224, 107, 77)!important;
-} */
-
-
-/* End of Orange Color Theme Styles */
-
 div.col-md-4>img {
     margin-top: 50px;
 }
@@ -138,6 +115,7 @@ a.dropdown-item {
 .carousel-image {
     display: block;
     width: 100%;
+    min-width: 1000px;
 }
 
 
@@ -232,7 +210,7 @@ iframe {
     border: medium none;
     display: block;
     overflow: hidden;
-    width: 80% !important;
+    width: 90% !important;
     height: 988.767px;
 }
 
