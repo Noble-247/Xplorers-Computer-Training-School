@@ -1,8 +1,5 @@
 log.txt
 /optional-files
-/js
-/css
-/favicon_package/Thumbs.db
 /images/Thumbs.db
 /responsive_breakpoints
 /SCROLL4_d6aju4
@@ -10,10 +7,7 @@ log.txt
 /SCROLL2_lpz30m
 /SCROLL1_enuine
 test.html
-test2.html
-test3.html
-template.html
-/fontawesome-free-5.11.2-web
+
 # Compiled source #
 ###################
 *.com
