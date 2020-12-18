@@ -24,16 +24,3 @@ $(window).on("load resize", function() {
         $dropdown.off("mouseenter mouseleave");
     }
 });
-
-
-
-/* **** FEATURED COURSES SECTION **** */
-
-let courses_col = $('.highlight-on-mouseover');
-$(courses_col).mouseover(function() {
-    $(this).addClass('activeClass')
-})
-
-$(courses_col).mouseleave(function() {
-    $(this).removeClass('activeClass')
-});
